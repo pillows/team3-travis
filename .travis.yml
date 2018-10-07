@@ -3,7 +3,7 @@ node_js:
   - "7"
 before_install:
   - npm i -g npm@latest
-  - chmod +x build.sh
+  - chmod +x script.sh
 cache:
   directories:
     - "node_modules"
